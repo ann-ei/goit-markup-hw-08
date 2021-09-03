@@ -1,0 +1,47 @@
+.main-screen {
+  background-color: $darkest-color;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/main-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.main-screen__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $footer-color;
+  margin: 0;
+  display: block;
+}
+.btn-order {
+  background-color: $accent-color;
+  color: $footer-color;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+  cursor: pointer;
+  width: 200px;
+  display: block;
+  margin: 30px auto 0 auto;
+  padding: 10px 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+}

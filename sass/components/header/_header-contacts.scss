@@ -1,10 +1,19 @@
 .header-contacts {
   display: flex;
   margin-left: auto;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-left: 80px;
+    flex-direction: column;
+  }
 }
 .header-contacts__link {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 5px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
   display: flex;
   align-items: center;
 }

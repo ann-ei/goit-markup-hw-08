@@ -8,7 +8,7 @@ p {
   margin: 0;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: $text-color;
   background-color: #fff;
 }
@@ -61,9 +61,13 @@ textarea {
 .header {
   background-color: #fff;
   border: 1px solid #ececec;
+  position: relative;
 }
 .header-container {
   padding: 0 15px;
+  @media (max-width: 767px) {
+    padding: 15px;
+  }
   display: flex;
   align-items: center;
 }

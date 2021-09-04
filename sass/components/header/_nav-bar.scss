@@ -122,3 +122,18 @@
   right: 16px;
   color: #fff;
 }
+.nav-list--mobile {
+  text-align: left;
+}
+.nav-list__item--mobile {
+  margin-bottom: 32px;
+  &:last-child {
+    margin-bottom: 300px;
+  }
+}
+.nav-list__link--mobile {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}

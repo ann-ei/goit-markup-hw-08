@@ -10,8 +10,16 @@
   &:last-child {
     margin-bottom: 0;
   }
-}
 
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+}
+.footer-adress {
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+}
 .footer-contacts__link {
   font-weight: normal;
   color: rgba(255, 255, 255, 0.6);
@@ -28,7 +36,7 @@
 }
 
 .footer-contact-box {
-  margin-right: 70px;
+  margin-bottom: 60px;
 }
 .footer-contacts__item {
   margin-bottom: 10px;
@@ -43,10 +51,21 @@
 }
 .footer-container {
   display: flex;
+
+  @media screen and (max-width: 767px) {
+    display: block;
+  }
+
+  @media screen and (min-width: 1200px) {
+    justify-content: space-around;
+  }
 }
 .footer-social-box {
   margin-top: 12px;
-  margin-right: 93px;
+  margin-bottom: 60px;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 .footer-social-box__title {
   font-weight: 700;
@@ -55,6 +74,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #fff;
+  text-align: center;
 
   display: inline-block;
   margin-bottom: 20px;
@@ -66,6 +86,7 @@
 .footer-icon-box {
   margin-top: 0;
   display: flex;
+  justify-content: center;
 }
 .footer-social__icon {
   fill: #fff;

@@ -11,4 +11,8 @@
   color: $footer-color;
   margin-bottom: 20px;
   display: block;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }

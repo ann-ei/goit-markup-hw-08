@@ -110,6 +110,10 @@
 
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 
 .menu-container.is-open {

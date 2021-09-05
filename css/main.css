@@ -731,12 +731,13 @@ textarea {
   }
 }
 
-.header-contacts__item {
-  margin-right: 50px;
-}
-
-.header-contacts__item:last-child {
-  margin-right: 0;
+@media screen and (min-width: 1200px) {
+  .header-contacts__item {
+    margin-right: 50px;
+  }
+  .header-contacts__item:last-child {
+    margin-right: 0;
+  }
 }
 
 .header-contacts__icon {
